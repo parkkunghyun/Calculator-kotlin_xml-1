@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Calculator-kotlin_xml-1</string>
+    <string name="calc_text">0</string>
+</resources>
