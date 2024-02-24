@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
         tvInput?.text = ""
     }
 
+
     fun onOperator(view: View) {
         tvInput?.text?.let {
             if(lastNumeric && !isOperatorAdded(it.toString())) {
@@ -48,6 +49,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
 
     fun onEqual(view : View) {
         // 일단 =를 눌렀을때 마지막이 숫자인지 확인하기!
